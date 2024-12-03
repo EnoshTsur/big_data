@@ -3,4 +3,12 @@
         <name>fs.defaultFS</name>
         <value>hdfs://namenode:8020</value>
     </property>
+    <property>
+        <name>ipc.maximum.data.length</name>
+        <value>134217728</value> <!-- 128MB -->
+    </property>
+    <property>
+        <name>ipc.maximum.response.length</name>
+        <value>134217728</value> <!-- 128 MB -->
+    </property>
 </configuration>
